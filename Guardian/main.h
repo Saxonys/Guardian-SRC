@@ -92,8 +92,8 @@ namespace guar {
     }
     namespace scanfunc {
         inline std::vector<sstool> yourprocesshere = {
-            {"Your Client Name", {
-                "Your Client Strings",
-		        "Your Client Strings" // Don't add a comma after the last string
-	    }}
+            {"Your Client Name Here", {
+                "Your Strings Here",
+                "Your Strings Here" // Don't add a comma at the last string
+            }}
         };

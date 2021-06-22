@@ -1,5 +1,5 @@
 #include "main.h"
-#include <windows.h>
+#include <Windows.h>
 #include <string>
 
 static LPDIRECT3D9 g_pD3D = nullptr;
@@ -67,7 +67,7 @@ void scan(const std::string& process, const std::vector<sstool>& list) {
 
         *(bool*)(std::size_t(&page_v[x]) + 0x18) = true;
     }
-    
+
     for (auto completed = false; !completed; Sleep(1)) {
         auto comp = true;
         for (int x = 0, vs = page_v.size(); x < vs; ++x) if (!page_v[x].mapped) comp = 0;
@@ -107,7 +107,7 @@ void runscanner() {
     if (curl) {
         curl_easy_setopt(curl, CURLOPT_CUSTOMREQUEST, "POST");
         curl_easy_setopt(curl, CURLOPT_URL,
-                         "Webhook Here to upload results to");
+                         "Webhook to upload results to goes here");
         curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
         curl_easy_setopt(curl, CURLOPT_DEFAULT_PROTOCOL, "https");
         curl_easy_setopt(curl, CURLOPT_HTTPHEADER, nullptr);
@@ -124,7 +124,7 @@ void runscanner() {
     curl_easy_cleanup(curl);
 }
 
-// Code your own GUI, I removed it so no one skids
+// Gui code was removed but left the imgui files in the source so you can still code one if you'd like
 
 int main() {
     ::ShowWindow(::GetConsoleWindow(), SW_SHOW);
@@ -180,5 +180,4 @@ void ResetDevice() {
 
 extern IMGUI_IMPL_API LRESULT ImGui_ImplWin32_WndProcHandler(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
 
-
-// Removed the Alt + F4 Tamper Software at the bottom, you can code a better one since it's meh
+// Alt + F4 Software was removed for skidding reasons, code your own

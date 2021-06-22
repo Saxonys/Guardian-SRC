@@ -1,2 +1,0 @@
-# Guardian
-Simple SS Tool
