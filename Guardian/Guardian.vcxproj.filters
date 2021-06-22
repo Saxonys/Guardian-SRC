@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Guardian">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Guardian\imgui">
+      <UniqueIdentifier>{679b5474-9802-4381-95a9-3510693b1d85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guardian\misc">
+      <UniqueIdentifier>{3928d0c6-e5fb-4015-8cc8-4783d9dd054c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guardian\lib">
+      <UniqueIdentifier>{1a00bf88-fc36-46a4-be75-4aa063681701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guardian\lib\curl">
+      <UniqueIdentifier>{e0908c12-14a4-4468-9213-6fbe78bec5e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guardian\lib\curl\include">
+      <UniqueIdentifier>{693230b4-25ab-45cf-aa39-479b5ccbc30f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guardian\lib\curl\include\curl">
+      <UniqueIdentifier>{a5922b82-40b5-4af0-8b66-a32df37e3a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guardian\lib\curl\lib">
+      <UniqueIdentifier>{f9b02e0c-55e0-4ff5-ad47-d62f7217983d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Guardian</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Guardian\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Guardian\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>Guardian\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>Guardian\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>Guardian\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Guardian\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Guardian</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\iconhandler.h">
+      <Filter>Guardian\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Guardian\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Guardian\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>Guardian\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>Guardian\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Guardian\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Guardian\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Guardian\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Guardian\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\font.h">
+      <Filter>Guardian\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\ext_l.hpp">
+      <Filter>Guardian\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\ntdll.hpp">
+      <Filter>Guardian\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\json.hpp">
+      <Filter>Guardian\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\curl\include\curl\curl.h">
+      <Filter>Guardian\lib\curl\include\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\curl\include\curl\curlver.h">
+      <Filter>Guardian\lib\curl\include\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\curl\include\curl\easy.h">
+      <Filter>Guardian\lib\curl\include\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\curl\include\curl\mprintf.h">
+      <Filter>Guardian\lib\curl\include\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\curl\include\curl\multi.h">
+      <Filter>Guardian\lib\curl\include\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\curl\include\curl\options.h">
+      <Filter>Guardian\lib\curl\include\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\curl\include\curl\stdcheaders.h">
+      <Filter>Guardian\lib\curl\include\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\curl\include\curl\system.h">
+      <Filter>Guardian\lib\curl\include\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\curl\include\curl\typecheck-gcc.h">
+      <Filter>Guardian\lib\curl\include\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\curl\include\curl\urlapi.h">
+      <Filter>Guardian\lib\curl\include\curl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\curl\lib\libcurl_a.lib">
+      <Filter>Guardian\lib\curl\lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
